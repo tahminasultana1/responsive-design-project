@@ -1,0 +1,132 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 1em 2em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60%;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.menu {
+    width: 40%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.site-heading {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.body-paragraph {
+    line-height: 26px;
+    color: #727272;
+}
+
+.button-color {
+    text-align: center;
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
+
+.intro-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner {
+    margin-top: 50px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.team-image-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.team-img {
+    margin: 24px 24px;
+}
+
+.quick-list {
+    width: 40%;
+    padding: 20px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+/* Features */
+.features{
+    display: flex;
+    margin: 40px;
+}
+.features-info{
+    width: 45%;
+}
+.features-heading{
+
+}
+.features-desc{
+
+}
+.features-details{
+
+}
+.sub-title{
+
+}
+.blank{
+    width: 10%;
+}
+.features-img{
+    width: 45%;
+}
