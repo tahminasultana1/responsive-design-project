@@ -1,6 +1,6 @@
+
 body {
     font-family: 'Work Sans', sans-serif;
-
 }
 
 header {
@@ -15,6 +15,10 @@ nav {
 
 .logo {
     width: 60%;
+}
+
+section {
+    margin-top: 130px;
 }
 
 .section-title {
@@ -85,10 +89,11 @@ nav {
     margin-top: 80px;
 }
 
-.team-image-gallery{
+.team-image-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 .team-img {
     margin: 24px 24px;
 }
@@ -99,34 +104,368 @@ nav {
 }
 
 .section-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 45px;
     line-height: 53px;
 }
 
 /* Features */
-.features{
+.features {
     display: flex;
     margin: 40px;
 }
-.features-info{
-    width: 45%;
+
+.features-info {
+    width: 40%;
 }
-.features-heading{
+
+.features-heading {}
+
+.features-desc {}
+
+.features-details {}
+
+.sub-title {}
+
+.blank {
+    width: 5%;
+}
+
+.features-img {
+    width: 30%;
+}
+
+.exp-button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-special {
+    margin-top: -100px;
+    margin-left: 500px;
+}
+
+.ten-year {
+    font-weight: 700;
+    font-size: 40px;
+    display: block;
+}
+
+/* Facts */
+.facts {}
+
+.fact-heading {
+    width: 50%;
+}
+
+.fact-issue {}
+
+.fact-in-issue {
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 
 }
-.features-desc{
 
+.fact-box {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
 }
-.features-details{
 
+.fact-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 0%;
 }
-.sub-title{
 
+.sponsor-heading {
+    text-align: center;
 }
-.blank{
-    width: 10%;
+
+.sponspors-image {
+    display: flex;
+    justify-content: space-evenly;
 }
-.features-img{
-    width: 45%;
+
+.sponspors-image img {
+    filter: grayscale(1);
 }
+
+.sponsor-heading h2 {
+    margin-bottom: 0;
+}
+
+.sponsor-heading p {
+    display: inline-flex;
+    width: 40%;
+}
+
+/* Testimonial */
+.testimonial {
+    text-align: center;
+}
+
+.testimonial h2,
+i {
+    text-align: center;
+}
+
+.testimonial-block {
+    display: inline-flex;
+    align-items: center;
+}
+
+.testimonial-desc {}
+
+footer {
+    display: grid;
+    justify-items: center;
+}
+
+footer div {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 15px;
+    margin-top: 80px;
+    width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        background: rgba(255, 144, 14, 0.1);
+        padding: n;
+    }
+    
+    nav {
+        display: b;
+        align-items: center;
+    }
+    .screen-magic{
+        background-color: red;
+    }
+    .logo {
+        width: 1;
+    }
+    
+    section {
+        margin-top: 130px;
+    }
+    
+    .section-title {
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 2em;
+    }
+    
+    .menu {
+        width: a;
+    }
+    
+    .menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .menu ul li {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .introduction {
+        text-align: center;
+    }
+    
+    .site-heading {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+    }
+    
+    .body-paragraph {
+        line-height: 26px;
+        color: #727272;
+    }
+    
+    .button-color {
+        text-align: center;
+        background-color: #FF900E;
+        color: #FFFFFF;
+    }
+    
+    .intro-btn {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .banner {
+        margin-top: 50px;
+    }
+    
+    .banner img {
+        width: 100%;
+    }
+    
+    /* Team Section */
+    .team {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+    }
+    
+    .team-image-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .team-img {
+        margin: 24px 24px;
+    }
+    
+    .quick-list {
+        width: 40%;
+        padding: 20px;
+    }
+    
+    .section-title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 53px;
+    }
+    
+    /* Features */
+    .features {
+        display: flex;
+        margin: 40px;
+    }
+    
+    .features-info {
+        width: 40%;
+    }
+    
+    .features-heading {}
+    
+    .features-desc {}
+    
+    .features-details {}
+    
+    .sub-title {}
+    
+    .blank {
+        width: 5%;
+    }
+    
+    .features-img {
+        width: 30%;
+    }
+    
+    .exp-button {
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .button-special {
+        margin-top: -100px;
+        margin-left: 500px;
+    }
+    
+    .ten-year {
+        font-weight: 700;
+        font-size: 40px;
+        display: block;
+    }
+    
+    /* Facts */
+    .facts {}
+    
+    .fact-heading {
+        width: 50%;
+    }
+    
+    .fact-issue {}
+    
+    .fact-in-issue {
+    
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    
+    }
+    
+    .fact-box {
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        padding: 30px;
+    }
+    
+    .fact-number {
+        font-weight: 600;
+        font-size: 45px;
+        color: #424242;
+        margin: 0%;
+    }
+    
+    .sponsor-heading {
+        text-align: center;
+    }
+    
+    .sponspors-image {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .sponspors-image img {
+        filter: grayscale(1);
+    }
+    
+    .sponsor-heading h2 {
+        margin-bottom: 0;
+    }
+    
+    .sponsor-heading p {
+        display: inline-flex;
+        width: 40%;
+    }
+    
+    /* Testimonial */
+    .testimonial {
+        text-align: center;
+    }
+    
+    .testimonial h2,
+    i {
+        text-align: center;
+    }
+    
+    .testimonial-block {
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .testimonial-desc {}
+    
+    footer {
+        display: grid;
+        justify-items: center;
+    }
+    
+    footer div {
+        background-color: #FFF4E7;
+        text-align: center;
+        padding: 15px;
+        margin-top: 80px;
+        width: 80%;
+    }
+  }
+  
