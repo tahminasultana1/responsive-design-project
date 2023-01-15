@@ -384,47 +384,8 @@ footer div {
         display: flex;
         justify-content: space-evenly;
     }
-    
-    .sponspors-image img {
-        filter: grayscale(1);
-    }
-    
-    .sponsor-heading h2 {
-        margin-bottom: 0;
-    }
-    
     .sponsor-heading p {
         display: inline-flex;
-        width: 80%;
-    }
-    
-    /* Testimonial */
-    .testimonial {
-        text-align: center;
-    }
-    
-    .testimonial h2,
-    i {
-        text-align: center;
-    }
-    
-    .testimonial-block {
-        display: inline-flex;
-        align-items: center;
-    }
-    
-    .testimonial-desc {}
-    
-    footer {
-        display: grid;
-        justify-items: center;
-    }
-    
-    footer div {
-        background-color: #FFF4E7;
-        text-align: center;
-        padding: 15px;
-        margin-top: 80px;
         width: 80%;
     }
   }
